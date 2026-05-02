@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<club nom="Info_Tech" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="club.xsd">
+
+  <categories>
+    <categorie id="C1" libelle="Intelligence Artificielle"/>
+    <categorie id="C2" libelle="Développement Web"/>
+    <categorie id="C3" libelle="Sécurité Informatique"/>
+    <categorie id="C4" libelle="Réseaux et Systèmes"/>
+  </categories>
+
+  <membres>
+    <membre id="M001" categorieRef="C1">
+      <nom>Benali</nom><prenom>Ahmed</prenom><email>a.benali@club.dz</email>
+    </membre>
+    <membre id="M002" categorieRef="C1">
+      <nom>Hamidi</nom><prenom>Rania</prenom><email>r.hamidi@club.dz</email>
+    </membre>
+    <membre id="M003" categorieRef="C1">
+      <nom>Meziani</nom><prenom>Youcef</prenom><email>y.meziani@club.dz</email>
+    </membre>
+    <membre id="M004" categorieRef="C2">
+      <nom>Khelif</nom><prenom>Sara</prenom><email>s.khelif@club.dz</email>
+    </membre>
+    <membre id="M005" categorieRef="C2">
+      <nom>Boudra</nom><prenom>Karim</prenom><email>k.boudra@club.dz</email>
+    </membre>
+    <membre id="M006" categorieRef="C2">
+      <nom>Zerrouk</nom><prenom>Amira</prenom><email>a.zerrouk@club.dz</email>
+    </membre>
+    <membre id="M007" categorieRef="C3">
+      <nom>Chouarbi</nom><prenom>Nassim</prenom><email>n.chouarbi@club.dz</email>
+    </membre>
+    <membre id="M008" categorieRef="C3">
+      <nom>Ladjel</nom><prenom>Houda</prenom><email>h.ladjel@club.dz</email>
+    </membre>
+    <membre id="M009" categorieRef="C3">
+      <nom>Ferhat</nom><prenom>Bilal</prenom><email>b.ferhat@club.dz</email>
+    </membre>
+    <membre id="M010" categorieRef="C4">
+      <nom>Tabet</nom><prenom>Lynda</prenom><email>l.tabet@club.dz</email>
+    </membre>
+  </membres>
+
+  <concours>
+    <concours id="CO1" categorieRef="C1" date="2025-03-15" coefficient="1.5">
+      <titre>Concours IA — Printemps 2025</titre>
+      <participants>
+        <participant membreRef="M001"><complexite>85</complexite><tempsExecution>120</tempsExecution></participant>
+        <participant membreRef="M002"><complexite>90</complexite><tempsExecution>95</tempsExecution></participant>
+        <participant membreRef="M003"><complexite>78</complexite><tempsExecution>140</tempsExecution></participant>
+      </participants>
+    </concours>
+    <concours id="CO2" categorieRef="C2" date="2025-04-10" coefficient="1.2">
+      <titre>Hackathon Web — Avril 2025</titre>
+      <participants>
+        <participant membreRef="M004"><complexite>92</complexite><tempsExecution>80</tempsExecution></participant>
+        <participant membreRef="M005"><complexite>75</complexite><tempsExecution>110</tempsExecution></participant>
+        <participant membreRef="M006"><complexite>88</complexite><tempsExecution>95</tempsExecution></participant>
+      </participants>
+    </concours>
+    <concours id="CO3" categorieRef="C3" date="2025-05-20" coefficient="2.0">
+      <titre>CTF Sécurité — Mai 2025</titre>
+      <participants>
+        <participant membreRef="M007"><complexite>95</complexite><tempsExecution>60</tempsExecution></participant>
+        <participant membreRef="M008"><complexite>88</complexite><tempsExecution>75</tempsExecution></participant>
+        <participant membreRef="M009"><complexite>72</complexite><tempsExecution>90</tempsExecution></participant>
+      </participants>
+    </concours>
+  </concours>
+
+</club>
